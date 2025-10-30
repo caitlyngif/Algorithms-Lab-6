@@ -22,4 +22,4 @@ The counts list follows the fibonacci sequence, but going reverse.
 
 - **6)** The maximum number of times that fib_top_down(i) will be called for any value i is once. This is because of memoization (compute it once and save the result for later use). Work is W(n) = O(n) and span is S(n) = O(n)
 
-- **8)**  The maximum number of times that $F_i$ will be read for any value i is twice. This is because $F_i$ is used to compute the next two numbers i + 1 and i + 2. Work is W(n) = O(n) and span is S(n) = O(n)
+- **8)**  The maximum number of times that $F_i$ will be read for any value i is twice. This is because $F_i$ is used to compute the next two numbers $F_i + 1$ and $F_i + 2$. Work is W(n) = O(n) and span is S(n) = O(n)
